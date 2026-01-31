@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kari Atílio | Brag Doc v2.0</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <aside>
+        <div class="avatar-block">
+            <div class="avatar-placeholder">KA</div>
+            <h1>Kari Atílio</h1>
+            <span class="role">Software engineer</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#sys-math">Systems & Math</a></li>
+                <li><a href="#java-infra">Java Ecosystem</a></li>
+                <li><a href="#full-stack">Backend Engineering</a></li>
+                <li><a href="#frontend">Frontend Developer</a></li>
+            </ul>
+        </nav>
+
+        <div style="margin-top: auto; padding-top: 20px; font-size: 0.75rem; color: #666;">
+            <p>STATUS: <span style="color: var(--accent-green)">● Online</span></p>
+            <p>LOC: Brazil</p>
+            <p>BUILD: v2.0.26</p>
+        </div>
+    </aside>
+
+    <main>
+        <div class="top-bar">
+            <span>user: karimoreira</span>
+            <span>last_commit: Jan 2026</span>
+            <span>access_level: admin</span>
+        </div>
+
+        <div id="sys-math" class="section-card">
+            <div class="card-header">
+                <span class="section-title">Systems Programming & Math</span>
+            </div>
+            <div class="content-block">
+                <div class="project-item">
+                    <div class="project-name">OpenXNAV <div class="badges"><span class="tag tag-rust">Rust</span> <span class="tag tag-rust">Math</span></div></div>
+                    <p style="font-size: 0.9rem; color: #bbb;">Biblioteca de navegação de alta precisão com física aplicada.</p>
+                    <div class="log-box">
+                        <span class="log-line">impl <span class="highlight">Extended Kalman Filter (EKF)</span> struct for navigation logic</span>
+                        <span class="log-line">calc physics: <span class="highlight">Poisson & Shapiro</span> effects</span>
+                        <span class="log-line">fix: pulsar direction vectors & dependency graph</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="java-infra" class="section-card">
+            <div class="card-header">
+                <span class="section-title">Java Ecosystem & Infra</span>
+            </div>
+            <div class="content-block">
+                <div class="project-item">
+                    <div class="project-name">LogAnalyzer & ToDo API <div class="badges"><span class="tag tag-java">Java</span> <span class="tag tag-infra">Tomcat</span></div></div>
+                    <div class="log-box">
+                        <span class="log-line">config server: <span class="highlight">Apache Tomcat (webapps/ROOT)</span> manual setup</span>
+                        <span class="log-line">test: synthetic traffic generation for load testing</span>
+                        <span class="log-line">refactor: Vanilla Java REST API (no frameworks) to study core concepts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="frontend" class="section-card" style="border-color: var(--accent-cyan);">
+            <div class="card-header" style="background: rgba(139, 233, 253, 0.05);">
+                <span class="section-title" style="color: var(--accent-cyan);">Frontend Ops & Architecture</span>
+            </div>
+            <div class="content-block">
+                
+                <p style="font-size: 0.8rem; text-transform: uppercase; color: #666; margin-bottom: 10px;">Tech Stack Detectada:</p>
+                <div class="tech-grid">
+                    <div class="tech-item">React.js</div>
+                    <div class="tech-item">JavaScript ES6+</div>
+                    <div class="tech-item">Context API</div>
+                    <div class="tech-item">CSS3 / Flexbox</div>
+                    <div class="tech-item">WebP Assets</div>
+                    <div class="tech-item">ReCaptcha v3</div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-name">Portfolio Engineering <div class="badges"><span class="tag tag-react">Performance</span> <span class="tag tag-infra">SEO</span></div></div>
+                    <div class="log-box">
+                        <span class="log-line">security: add <span class="highlight">CSP Headers</span> & ReCaptcha v3 verification</span>
+                        <span class="log-line">perf: convert assets to WebP + local Font-face implementation</span>
+                        <span class="log-line">arch: migrate static HTML to <span class="highlight">JSON-driven Rendering</span> (Clean Code)</span>
+                        <span class="log-line">a11y: contrast audit & sitemap.xml generation</span>
+                    </div>
+                </div>
+
+                <div class="project-item" style="margin-top: 20px;">
+                    <div class="project-name">HabbitPet (UI) <div class="badges"><span class="tag tag-react">React</span> <span class="tag tag-node">Gamification</span></div></div>
+                    <div class="log-box">
+                        <span class="log-line">feat: Gamification logic (XP bar, Level Up animations)</span>
+                        <span class="log-line">api: integration with Ottie-React for dynamic avatars</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="full-stack" class="section-card">
+            <div class="card-header">
+                <span class="section-title">Backend & Database Engineering</span>
+            </div>
+            <div class="content-block">
+                <div class="project-item">
+                    <div class="project-name">Rede Social Ping <div class="badges"><span class="tag tag-node">Node.js</span> <span class="tag tag-infra">SQL</span></div></div>
+                    <div class="log-box">
+                        <span class="log-line">sql: <span class="highlight">Conditional Query</span> for Reposts (Current vs Original User)</span>
+                        <span class="log-line">lib: Sharp implementation for server-side image optimization</span>
+                        <span class="log-line">feat: 'Trash' logic for deleted posts & fallback avatars</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-name">Cafeteria Ctrl+Coffee <div class="badges"><span class="tag tag-node">E-commerce</span></div></div>
+                    <div class="log-box">
+                        <span class="log-line">backend: Cart logic calculation & Change (Troco) algorithm</span>
+                        <span class="log-line">mail: <span class="highlight">Nodemailer</span> transactional email integration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
+
