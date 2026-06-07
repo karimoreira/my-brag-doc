@@ -237,22 +237,8 @@
             background: linear-gradient(135deg, rgba(139,233,253,0.06), rgba(57,255,202,0.03));
         }
 
-        .tech-item { display:flex; align-items:center; justify-content:center; gap:8px; }
-
-        .level-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            display: inline-block;
-            box-shadow: 0 0 8px rgba(0,0,0,0.6);
-            margin-left: 6px;
-        }
-
-        .level-adv { background: var(--accent-green); box-shadow: 0 0 12px rgba(80,250,123,0.14); }
-        .level-mid { background: var(--accent-amber); box-shadow: 0 0 10px rgba(255,184,108,0.12); }
-        .level-low { background: #6b6b6b; box-shadow: none; }
-
-        .tech-label { display:inline-block; }
+        /* tech-item layout restored to centered blocks (no level dots) */
+        .tech-item { display: block; }
 
         .section-card {
             border: 1px solid rgba(75,75,75,0.6);
